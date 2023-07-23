@@ -1,8 +1,38 @@
 @import "settings/_reset.css";
 @import "settings/colors";
 @import "settings/fonts";
+@import "settings/mixins";
+
+@import "main-page";
+@import "whom-help";
+@import "three-columns";
+@import "three-steps";
+@import "about-us";
+@import "form-box";
+@import "footer";
 
 
 body {
     font-family: $font-base;
 }
+
+.header_1{
+    font-size: 30px;
+    font-family: $font-base;
+    color: $color-dark-grey;
+}
+
+.header_4{
+    font-size: 18px;
+    color: $color-dark-grey;
+}
+
+.button{
+    padding-inline: 40px;
+    height: 90px;
+    width: 250px;
+    font-size: 30px;
+    font-family: $font-base;
+    color: $color-grey;
+    font-weight: 300;
+    }

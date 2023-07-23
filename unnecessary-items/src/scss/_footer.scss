@@ -1,0 +1,20 @@
+@import "settings/_reset.css";
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/mixins";
+
+
+.footer_box{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 500px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: $color-grey;
+    .social_media i{
+        padding-left: 20px;
+    }
+}
