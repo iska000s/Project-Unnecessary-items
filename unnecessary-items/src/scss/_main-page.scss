@@ -15,32 +15,6 @@
     background-repeat: no-repeat;
     background-position-x: -80%;
     align-items: flex-end;
-
-    .navigation {
-        margin-right: 100px;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-end;
-
-        .login{
-            margin-block: 46px 30px;
-            ul li a{
-                font-size: 14px;
-                color: $color-grey;
-                text-decoration: none;
-            }
-        }
-        ul{
-            display: flex;
-            flex-direction: row;
-            gap: 55px;   
-        }
-        .menu ul li{
-            font-size: 18px;
-            color: $color-dark-grey;
-        }
-    }
     .main_box{
         height: 100%;
         display: flex;

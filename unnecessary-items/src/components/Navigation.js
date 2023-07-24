@@ -13,7 +13,7 @@ const Navigation = () => {
         </div>
         <div className="menu" id="menu">
           <ul >
-            <li>Start</li>
+            <li><Link to="/">Start</Link></li>
             <li><Scroll to="simple_steps" smooth duration={500}>O co chodzi</Scroll></li>
             <li><Scroll to="about_us" smooth duration={500}>O nas</Scroll></li>
             <li><Scroll to="whom_help" smooth duration={500}>Fundacja i organizacje</Scroll></li>

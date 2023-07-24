@@ -1,16 +1,18 @@
 import React from 'react';
-import Hero from './MainPage';
+import MainPage from './MainPage';
 import ThreeColumns from './ThreeColumns';
 import SimpleSteps from './SimpleSteps';
 import AboutUs from './AboutUs';
 import WhomHelp from './WhomHelp';
 import Form from './Form';
 import Footer from './Footer';
+import Navigation from './Navigation';
 
 const Home = () => {
     return (
     <section >
-      <Hero />
+      <Navigation/>
+      <MainPage />
       <ThreeColumns />
       <SimpleSteps/>
       <AboutUs/>
