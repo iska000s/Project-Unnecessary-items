@@ -1,10 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 
-const Registartion = () => {
-    // <Route path="rejestracja" element={<Registartion />}/>
-
+const Registration = () => {
+    return(
+        <div>
+            Rejestracja - strona w przygotowaniu
+        </div>
+    )
 }
 
-export default Registartion;
+export default Registration;

@@ -12,10 +12,10 @@
     align-items: center;
     flex-direction: column;
     h1{
-        margin-block: 20px;
+        margin-block: 30px;
     }
-    svg{
-        padding-bottom: 30px;
+    img{
+        margin-bottom: 30px;
     }
     .steps{
         height: 320px;
@@ -42,5 +42,9 @@
     }
     .button{
         margin-top: 20px;
+        a{
+            color: $color-grey;
+            text-decoration: none;
+        }
     }
 }

@@ -10,11 +10,12 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 500px;
-    margin-right: 100px;
+    gap: 25%;
+    margin-right: 250px;
     font-size: 18px;
     color: $color-grey;
-    .social_media i{
+    margin-bottom: 20px;
+    .social_media img{
         padding-left: 20px;
     }
 }

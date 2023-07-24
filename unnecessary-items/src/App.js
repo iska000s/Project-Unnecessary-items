@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Login from "./components/Login";
-// import Registartion from "./components/Registration";
+import Registration from "./components/Registration";
 
 function App() {
   return (
@@ -10,6 +10,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/logowanie" element={<Login />} />
+          <Route path="/rejestracja" element={<Registration />} />
+
         </Routes>
       </HashRouter>
     </div>
