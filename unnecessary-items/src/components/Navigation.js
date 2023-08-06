@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Link as Scroll } from 'react-scroll';
 
 const Navigation = () => {
@@ -7,8 +7,24 @@ const Navigation = () => {
         <nav className="navigation" id="navigation">
         <div className="login" id="login">
           <ul>
-              <li><Link to="/logowanie">Zaloguj</Link></li>
-              <li><Link to="/rejestracja">Załóż konto</Link></li>
+              <li>
+                <NavLink
+                  to="/logowanie"
+                  className={({ isActive }) =>
+                    isActive ? "active" : ""
+                  }
+                >
+                  Zaloguj
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                to="/rejestracja"
+                className={({isActive}) => isActive ? "active" : ""}
+                >
+                  Załóż konto
+                </NavLink>
+                </li>
           </ul>
         </div>
         <div className="menu" id="menu">

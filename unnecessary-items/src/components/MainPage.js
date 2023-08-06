@@ -11,7 +11,7 @@ const MainPage = () => {
         <img src={decoration} alt="decoration"/>
         <div className='button_box'>
           <button className="main_button button"><Link to="/logowanie">ODDAJ RZECZY</Link></button>
-          <button className="main_button button"><Link to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link></button>
+          <Link to="/logowanie"><button className="main_button button">ZORGANIZUJ ZBIÓRKĘ</button></Link>
         </div> 
       </main>
       </section>

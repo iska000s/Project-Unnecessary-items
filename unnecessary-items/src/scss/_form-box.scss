@@ -4,7 +4,6 @@
 @import "settings/mixins";
 
 .form_box{
-    width: 100%;
     height: 700px;
     display: block;
     background-image: url(../assets/Background-Contact-Form.jpg);
@@ -28,7 +27,6 @@
 
     .form_text{
         height: 100%;
-        width: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;  

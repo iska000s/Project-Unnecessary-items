@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Navigation from './Navigation';
 import decoration from '../assets/Decoration.svg';
 
 
 
 const Login = () => {
+  const params = useParams();
+  console.log(params)
     return (
     <>
     <Navigation/>
